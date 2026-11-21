@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Sos.css">
+    <title>Animación niveles</title>
+</head>
+<body>
+<div class="separación">
+    <h1>Animación videos de niveles</h1>
+<video src="anim.mp4" controls> </video>
+<p> Esta es mi animación presentada para mi exposición de artes visuales 2026</p>
+</div>
+<audio src="Tom Jobim Garota de Ipanema Inédito.mp3" autoplay controls></audio>
+<p class="cancion">Tom Jobim Garota de Ipanema Inédito</p>
+<P>Esta es una imagen que adjunta lo que seria las bases de la animación</P>
+<img src="animate with dermot.jpg" alt="Imagen de la animación" width="500">
+<p class="dos">Dermot O'Connor (2018)</p>
+<p> Esta imagen representa de manera simple pero escencial cuales son los 
+    fundamentos para empezar a animar</p>
+
+
+<h2>Animación Nivel 1</h2>
+<video src="Nivel 1.mp4" controls class="lampara"> </video>
+<p> Este segundo nivel busca enseñar como funciona la gravedad 
+    sobre un objeto que es como la masa newtoniana <br>
+ Se puede observar como el objeto cae y no rebota en el suelo, 
+ y como la gravedad lo atrae hacia abajo.<br>
+La gravedad se puede usar de distintas maneras el fundamento de la gravedad, <br>
+ como la gravedad cero o la gravedad excesiva.
+</p>
+<h2>Animación Nivel 2</h2>
+
+<video src="Nivel 2.mp4" controls class="lampara"> </video>
+<p> Para este Nivel decidi explorar la transformación, ya que <br>
+apesar de que al principio parece sensillo, requiere una planificación <br>
+muy metodica para poder entender como es que el objeto empieza a modificarse, <br>
+desde donde empieza hasta donde termina la transoformación.
+
+ <script>
+        function mostrarImg(idElemento) {
+            document.getElementById(idElemento).style.display = 'block';
+        }
+
+        function ocultarImg(idElemento) {
+            document.getElementById(idElemento).style.display = 'none';
+        }
+    </script>
+  
+<h2 text-align: center;> No se guarda las estrellas pero es relajante</h2>
+<div class="stars" id="StarsContainer">
+    <span class="star" data-value="1"> &#9733;</span>
+    <span class="star" data-value="2"> &#9733;</span>
+    <span class="star" data-value="3"> &#9733;</span>
+    <span class="star" data-value="4"> &#9733;</span>
+    <span class="star" data-value="5"> &#9733;</span>
+</div>
+<P id="ratingOutput"></P>
+<script src="script.js"></script>
+</p>
+<p> Presionar las estrellas para "calificar"</p>
+</body>
+</html>

@@ -1,0 +1,70 @@
+body {
+background-color: rgb(192, 188, 188);
+}
+
+h1 {
+    color: rgb(69, 69, 69);
+    text-align: center;
+}
+
+video { 
+    display: block;
+        margin-left: auto;
+        margin-right: auto;
+}
+
+.lampara {
+    width: 700px;
+}
+
+p { 
+    text-align: center;
+    font-weight: italic;
+}
+
+audio { 
+   display: block;
+        margin-left: auto;
+        margin-right: auto;
+}
+
+audio::-webkit-media-controls-panel {
+    background-color: rgb(104, 104, 104);
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.cancion {
+    text-align: center;
+    font-size: 30px;
+    color:rgb(101, 100, 100)
+}
+
+.dos {
+    text-align: center;
+    font-size: 25px;
+    color:rgb(101, 100, 100)
+}
+
+h2 {
+    text-align: center;
+    color: rgb(69, 69, 69);
+}
+
+.star {
+    font-size: 50px;
+    color: azure;
+    cursor: pointer;
+    transition: color 0.2s;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.star.filled {
+    color: gold;
+     margin-left: 100px;
+    margin-right: 100px;
+}
